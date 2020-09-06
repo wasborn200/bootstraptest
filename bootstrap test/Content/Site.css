@@ -1,0 +1,48 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.border{
+    border: solid;
+    text-align:center;
+}
+.inputfield{
+    margin: 10px 0px;
+}
+.inputfield-textbox{
+    width: 80%;
+}
+
+.hp-textbox-left{
+    width: 120px;
+}
+.hp-textbox-right {
+    width: 60%;
+}
+.hp-inputfield-left {
+    text-align: left;
+    margin-left: 28.5%;
+}
+.hp-inputfield-right {
+    text-align: left;
+}
+
+@media (max-width:767px) {
+    .hp-inputfield-left {
+        text-align: left;
+        margin-left: 6%;
+    }
+
+    .hp-inputfield-right {
+        text-align: left;
+        margin-left: 6%;
+    }
+}
